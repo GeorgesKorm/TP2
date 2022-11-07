@@ -1,0 +1,91 @@
+
+@import url(https://fonts.google.com/specimen/Source+Code+Pro);
+
+div{
+    border: 1px solid red;
+}
+
+.backgroundSite{
+    background-repeat: repeat;
+    background-image:initial;
+    background-size:auto;
+}
+
+.main {
+    margin: auto;
+    min-width: 500px;
+    max-width: 1000px;
+    background-color:aliceblue;
+    font-family:
+}
+
+.headerLayout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 5px;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: auto;
+
+}
+
+
+.headerLayout a {
+    text-decoration: none;
+    color: black;
+    padding: 4px 20px 4px 20px;
+    /*    top  right bottom left */
+}
+
+.headerLayout a:hover {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+
+}
+
+.headerLayout a:active{
+    background-color: lightblue;
+}
+
+.headerLayout .selected{
+    background-color: lightgreen;
+    
+}
+
+.logo{
+    width: 40px;
+    display: inline;
+}
+
+
+.texteExplication{
+    font-size:large;
+    padding-top: 215px;
+    text-align: justify;
+}
+
+.imageBackground{
+    
+}
+
+.titreDePage{
+    text-align: center;
+}
+
+
+
+
+.logo{
+    display:inline;
+    width: 40px;
+}
+.animationDuSite{
+/*
+Mettre une animation pour le titre du site. Pas quelque
+Chose de trop dramatique. Genre une petite couleur
+nothing more.
+*/
+}
+
+/* Changer logo, il n'est pas assez claire, donc il ne parait pas comme favicon. */
