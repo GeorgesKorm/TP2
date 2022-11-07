@@ -67,8 +67,8 @@ div{
     text-align: justify;
 }
 
-.imageBackground{
-    
+body{
+    background-image: linear-gradient(to right, purple, maroon);
 }
 
 .titreDePage{
@@ -82,6 +82,12 @@ div{
     display:inline;
     width: 40px;
 }
+
+.vidéoAjusté{
+    width: 100%;
+    height: 400px;
+}
+
 .animationDuSite{
 /*
 Mettre une animation pour le titre du site. Pas quelque
