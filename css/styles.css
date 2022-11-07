@@ -21,7 +21,8 @@ div{
 
 .headerLayout{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 7% 11% 20% 21% 13% 13% 10%;     /* 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    */ 
     gap: 5px;
     align-items: center;
     border-bottom: 1px solid black;
@@ -50,6 +51,7 @@ div{
 
 .headerLayout .selected{
     background-color: lightgreen;
+    border-radius: 25px;
     
 }
 
