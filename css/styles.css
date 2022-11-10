@@ -68,7 +68,7 @@ div{
 }
 
 body{
-    background-image: linear-gradient(to right, purple, maroon);
+    background-image: linear-gradient(to left, #3a1c71 , #d76d77 , #ffaf7b);
 }
 
 .titreDePage{
@@ -99,4 +99,5 @@ nothing more.
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    font-size: large;
 }
