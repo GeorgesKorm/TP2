@@ -60,13 +60,6 @@ div{
     display: inline;
 }
 
-
-.texteExplication{
-    font-size:large;
-    padding-top: 215px;
-    text-align: justify;
-}
-
 body{
     background-image: linear-gradient(to left, #3a1c71 , #d76d77 , #ffaf7b);
 }
@@ -81,9 +74,14 @@ body{
     width: 40px;
 }
 
-.vidéoAjusté{
+.médiaAjusté{
     width: 100%;
     height: 400px;
+}
+
+.médiaAjustéAcceuil{
+    width: 100%;
+    height: 350px;
 }
 
 .animationDuSite{
@@ -96,8 +94,6 @@ nothing more.
 
 .texteAjusté{
     text-align: justify;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding: 15px 15px 15px 15px;
     font-size: large;
 }
