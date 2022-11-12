@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Sono');
 
 
-
+/* https://georgeskorm.github.io/TP2/accueil.html 
+Zoom du prof en parlait, il faut mettres le nom du fichier à la fin aussi*/
 
 
 .backgroundSite{
@@ -95,4 +96,17 @@ body{
     text-align: justify;
     padding: 15px 15px 15px 15px;
     font-size: large;
+}
+
+.avatarAjusté{
+    object-fit:cover;
+    border-radius: 50%;;
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    border: 1px solid black;
+}
+
+.positionAvatar{
+    margin-left: 40%;
 }
