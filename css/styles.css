@@ -54,6 +54,22 @@ Zoom du prof en parlait, il faut mettres le nom du fichier à la fin aussi*/
     border-radius: 25px;
     
 }
+.texteAjusté a:link{
+    text-decoration: none;
+
+}
+.source a:visited{
+    text-decoration: none;
+    
+}
+.source a:hover{
+    text-decoration: none;
+    
+}
+.source a:active{
+    text-decoration: none;
+    
+}
 
 .logo{
     width: 40px;
@@ -89,7 +105,8 @@ body{
 
 .médiaAjustéAcceuil{
     width: 100%;
-    height: 350px;
+    height: 450px;
+    object-fit:cover;
 }
 
 .texteAjusté{
@@ -100,7 +117,7 @@ body{
 
 .avatarAjusté{
     object-fit:cover;
-    border-radius: 50%;;
+    border-radius: 50%;
     height: 200px;
     width: 200px;
     margin:auto;
