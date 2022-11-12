@@ -1,29 +1,19 @@
-
 @import url('https://fonts.googleapis.com/css?family=Sono');
-
-
-/* https://georgeskorm.github.io/TP2/accueil.html 
-Zoom du prof en parlait, il faut mettres le nom du fichier à la fin aussi*/
-
-
-.backgroundSite{
-    background-repeat: repeat;
-    background-image:initial;
-    background-size:auto;
-}
 
 .main {
     margin: auto;
     min-width: 500px;
     max-width: 1000px;
-    background-color:lavender;
-    font-family:
+    background-color: lavender;
 }
 
-.headerLayout{
+body {
+    background-image: linear-gradient(to left, #3a1c71, #d76d77, #ffaf7b);
+}
+
+.headerLayout {
     display: grid;
-    grid-template-columns: 7% 11% 20% 21% 13% 13% 10%;     /* 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    */ 
+    grid-template-columns: 7% 11% 20% 21% 13% 13% 10%;
     gap: 5px;
     align-items: center;
     border-bottom: 2px solid black;
@@ -45,85 +35,65 @@ Zoom du prof en parlait, il faut mettres le nom du fichier à la fin aussi*/
 
 }
 
-.headerLayout a:active{
+.headerLayout a:active {
     background-color: lightblue;
 }
 
-.headerLayout .selected{
+.headerLayout .selected {
     background-color: lightcoral;
     border-radius: 25px;
-    
+
 }
-.texteAjusté a:link{
+
+.texteAjusté a:link {
     text-decoration: none;
 
 }
-.source a:visited{
-    text-decoration: none;
-    
-}
-.source a:hover{
-    text-decoration: none;
-    
-}
-.source a:active{
-    text-decoration: none;
-    
-}
 
-.logo{
+.logo {
     width: 40px;
     display: inline;
 }
 
-body{
-    background-image: linear-gradient(to left, #3a1c71 , #d76d77 , #ffaf7b);
-}
 
-.titreDePage{
+.titreDePage {
     text-align: center;
-    font-family:'Sono';
+    font-family: 'Sono';
 }
 
-
-.logo{
-    display:inline;
-    width: 40px;
-}
-
-.médiaAjusté{
+.médiaAjusté {
     width: 50%;
     height: 300px;
     margin-left: 25%;
 }
 
-.photoAjusté{
+.photoAjusté {
     width: 70%;
     height: 350px;
     margin-left: 15%;
 }
 
-.médiaAjustéAcceuil{
+.médiaAjustéAcceuil {
     width: 100%;
     height: 450px;
-    object-fit:cover;
+    object-fit: cover;
 }
 
-.texteAjusté{
+.texteAjusté {
     text-align: justify;
     padding: 15px 15px 15px 15px;
     font-size: large;
 }
 
-.avatarAjusté{
-    object-fit:cover;
+.avatarAjusté {
+    object-fit: cover;
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin:auto;
+    margin: auto;
     border: 1px solid black;
 }
 
-.positionAvatar{
+.positionAvatar {
     margin-left: 40%;
 }
