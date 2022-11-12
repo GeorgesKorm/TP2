@@ -1,5 +1,5 @@
 
-@import url(https://fonts.google.com/specimen/Sono);
+@import url('https://fonts.googleapis.com/css?family=Sono');
 
 
 
@@ -15,7 +15,7 @@
     margin: auto;
     min-width: 500px;
     max-width: 1000px;
-    background-color:aliceblue;
+    background-color:lavender;
     font-family:
 }
 
@@ -25,7 +25,7 @@
     */ 
     gap: 5px;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     width: auto;
 
 }
@@ -65,7 +65,7 @@ body{
 
 .titreDePage{
     text-align: center;
-    font-family:sono;
+    font-family:'Sono';
 }
 
 
@@ -84,20 +84,11 @@ body{
     width: 70%;
     height: 350px;
     margin-left: 15%;
-    border: 1px solid black;
 }
 
 .médiaAjustéAcceuil{
     width: 100%;
     height: 350px;
-}
-
-.animationDuSite{
-/*
-Mettre une animation pour le titre du site. Pas quelque
-Chose de trop dramatique. Genre une petite couleur
-nothing more.
-*/
 }
 
 .texteAjusté{
